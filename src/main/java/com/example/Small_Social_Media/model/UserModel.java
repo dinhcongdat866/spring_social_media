@@ -34,6 +34,7 @@ public class UserModel {
     private String email;
     private Instant created;
     private boolean enabled;
+    private int random;
 
     public UserModel(String username, String email, String password) {
         this.username = username;
